@@ -1,0 +1,40 @@
+/*creacion de la propiedadpara todos los elementos "*" */
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*creacion color fondo de pantalla */
+body {
+    background-color: aliceblue;
+}
+header {
+    display: flex;
+
+    justify-content: end;
+    height: 60px;
+    padding: 0 12px;
+}
+header .options{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+header .options a{
+    font-family: Arial,sans-serif;
+    text-decoration: none;
+    color: black;
+}
+header .options a svg{
+    height: 24px;
+    width: 24px;
+}
+header .options a img{
+    border-radius: 50%;
+    height: 24px;
+    width: 24px;
+}
+header .options a svg{
+    height: 24px;
+    width: 24px;
+}
